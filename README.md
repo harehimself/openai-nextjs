@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+   <img src="https://github.com/harehimself/openai-nextjs/blob/master/OpenAI-Nextjs.png">
+</p>
 
-## Getting Started
+<p align="center">
+   This repository provides a playground for developers to explore and experiment with OpenAI's cutting-edge language models. This repository contains a collection of sample projects, tutorials, and code snippets designed to help developers get started with OpenAI's technology. Whether you're a seasoned developer or just starting out, this repository offers a wealth of resources to kickstart your journey into the world of advanced language models. With a focus on practical examples and real-world use cases, you can dive into the exciting possibilities offered by OpenAI's language models.
+</p>
+<br>
 
-First, run the development server:
+<p align="center">
+  <a href="https://github.com/harehimself/openai-lab/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/harehimself/openai-lab" alt="Contributors"></a>
+  <a href="https://github.com/harehimself/openai-lab/network/members">
+    <img src="https://img.shields.io/github/forks/harehimself/openai-lab" alt="Forks"></a>
+  <a href="https://github.com/harehimself/openai-lab/stargazers">
+    <img src="https://img.shields.io/github/stars/harehimself/openai-lab" alt="Stars"></a>
+  <a href="https://github.com/harehimself/openai-lab/issues">
+    <img src="https://img.shields.io/github/issues/harehimself/openai-lab" alt="Issues"></a>
+  <a href="https://github.com/harehimself/openai-lab/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/harehimself/openai-lab" alt="MIT License"></a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<br><br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Features](#features)
+- [Benefits](#features)
+- [How It Compares](#features)
+- [License](#license)
+<br>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
+- Sample projects showcasing various applications of OpenAI's language models
+- Well-documented code snippets and tutorials for easy understanding
+- Integration examples with popular frameworks and libraries
+- Regular updates with the latest advancements and techniques
+- Active community support and contribution opportunities
+<br>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Benefits
+- Learn and experiment with OpenAI's language models in a safe and controlled environment
+- Gain insights into the practical applications of advanced language models
+- Accelerate your development process with ready-to-use code samples
+- Stay up-to-date with the latest developments in the field of natural language processing
+- Contribute to the growth and improvement of the repository through collaboration
+<br>
 
-## Learn More
+## How It Compares
+- Comprehensive resource specifically tailored for OpenAI's language models
+- Hands-on approach with practical examples and use cases
+- Streamlined learning experience with clear documentation and tutorials
+- Encourages community collaboration and knowledge sharing
+- Regularly updated to reflect the latest advancements in the field
+<br>
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+Released under the permissive MIT License. Allows free use, modification, and distribution.
