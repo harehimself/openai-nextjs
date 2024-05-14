@@ -49,10 +49,9 @@
   }
 }
 
-
 @layer base {
   * {
-    @apply border-border;
+    @apply border-2 border-gray-200 dark:border-gray-600;
   }
 
   body {

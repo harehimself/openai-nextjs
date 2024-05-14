@@ -49,10 +49,9 @@
   }
 }
 
-
 @layer base {
   * {
-    @apply border-border;
+    @apply border-default;
   }
 
   body {

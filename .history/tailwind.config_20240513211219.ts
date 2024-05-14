@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
 
 const config = {
   darkMode: ["class"],
@@ -7,7 +7,7 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   prefix: "",
   theme: {
     container: {
@@ -74,7 +74,23 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
-} satisfies Config
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.bg-background': {
+          'background-color': 'var(--background)',
+        },
+        '.text-foreground': {
+          'color': 'var(--foreground)',
+        },
+        '.border-default': {
+          'border-width': '2px',
+          'border-color': 'var(--border)',
+        },
+      });
+    },
+    require("tailwindcss-animate"),
+  ],
+} satisfies Config;
 
-export default config
+export default config;
